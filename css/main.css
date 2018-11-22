@@ -1,0 +1,98 @@
+#top_block {
+	height: 61.8vh;
+	background-color: white; 
+	overflow: hidden;
+}
+/*.top_pic{
+	width: 100%;
+	min-width: 100vh;
+	min-height: 40vh;
+	max-height: 50vh;
+}*/
+#nav_block {
+	z-index: 99;
+	background-color: white;
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -o-sticky;
+	position: sticky;
+	top: 0;
+}
+#news_block {
+	background-color: white; 
+}
+#news_block_background {
+	margin: 10px 7.5%;
+	padding-bottom: 2vh;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	background-color: #ebedf0;
+}
+.news_block_big {
+	margin-bottom: 2vh;
+}
+.news_block_small {
+	margin-bottom: 2vh;
+}
+#mid_block {
+	height: 80vh;
+	background-color: white; 
+}
+#mid_block_content {
+	z-index: 3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0 ,0, 50%);
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+  	align-items: center;
+  	color: white;
+}
+.big_title {
+	width: 100%;
+	font-size: 3.5em;
+	margin-bottom: 40px;
+}
+.big_content {
+	margin: 10px;
+	width: 100%;
+	font-size: 6em;
+}
+.big_content img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 30px;
+}
+.big_content p {
+	font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+	margin-top: 0;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.borad_change {
+	width: 35%;
+	border-top: 4px solid white;
+	padding-bottom: 20px;
+	transition: all 1.5s ease;
+}
+.borad_change:hover {
+	width: 80%;
+}
+#test3_block {
+	height: 50vh;
+	background-color: white; 
+}
+#test4_block {
+	height: 50vh;
+	margin:20px;
+	background-color: white; 
+}
+#bottom_block {
+	height: 30vh;
+	background-color: #444444; 
+}
