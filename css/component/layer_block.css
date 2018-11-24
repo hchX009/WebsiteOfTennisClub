@@ -22,3 +22,6 @@
 .block_title h1:hover {
 	width: 180px;
 }
+.extra_add_padding {
+    padding: 0 10%;
+}

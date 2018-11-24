@@ -84,13 +84,22 @@
 	width: 80%;
 }
 #test3_block {
-	height: 50vh;
-	background-color: white; 
+	height: 60vh;
+	width: 85vw;
+	margin: 10px 7.5%;
+	padding-bottom: 2vh;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: #ebedf0;
 }
-#test4_block {
-	height: 50vh;
-	margin:20px;
-	background-color: white; 
+#time_block {
+	height: 60vh;
+	width: 85vw;
+	margin: 10px 7.5%;
+	padding-bottom: 2vh;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: #ebedf0;
 }
 #bottom_block {
 	height: 30vh;

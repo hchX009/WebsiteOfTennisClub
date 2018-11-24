@@ -1,7 +1,7 @@
 $(document).ready(function($) {
 
 	var left;
-	var div = $(document.body).width() * 0.2;
+	var div = $(document.body).width() * 0.1725;
 
 	var reg = /\d+/g;
 
