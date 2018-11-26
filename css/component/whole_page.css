@@ -6,3 +6,7 @@ body {
 	overflow-x: hidden;
 	/*background-color: white;*/
 }
+#bottom_block {
+	height: 30vh;
+	background-color: #444444; 
+}

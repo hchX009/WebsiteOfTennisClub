@@ -83,15 +83,6 @@
 .borad_change:hover {
 	width: 80%;
 }
-#test3_block {
-	height: 60vh;
-	width: 85vw;
-	margin: 10px 7.5%;
-	padding-bottom: 2vh;
-	padding-left: 0;
-	padding-right: 0;
-	background-color: #ebedf0;
-}
 #time_block {
 	height: 60vh;
 	width: 85vw;
@@ -100,8 +91,4 @@
 	padding-left: 0;
 	padding-right: 0;
 	background-color: #ebedf0;
-}
-#bottom_block {
-	height: 30vh;
-	background-color: #444444; 
 }
