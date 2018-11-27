@@ -1,3 +1,10 @@
+#top_top_block {
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	height: 10vh;
+	background-color: rgba(68, 68, 68, 40%);
+}
 #top_block {
 	height: 61.8vh;
 	background-color: white; 
@@ -17,6 +24,33 @@
 	position: -o-sticky;
 	position: sticky;
 	top: 0;
+}
+#choose_block {
+	width: 85%;
+	background-color: white; 
+	margin: 10px 7.5%;
+	padding-bottom: 2vh;
+	background-color: #ebedf0;
+}
+#professional_team {
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	background-image: url(../images/top_top_2.jpg);
+}
+#amateur_team {
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-image: url(../images/top_top_3.jpg);
 }
 #news_block {
 	background-color: white; 
@@ -86,7 +120,7 @@
 #time_block {
 	height: 60vh;
 	width: 85vw;
-	margin: 10px 7.5%;
+	margin: 20px 7.5%;
 	padding-bottom: 2vh;
 	padding-left: 0;
 	padding-right: 0;

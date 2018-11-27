@@ -1,0 +1,52 @@
+.pic_show_page {
+	display: none;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	background-color: rgba(0,0,0,60%);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+ 	top: 0;
+ 	left: 0;
+}
+.pic_page_flex_center_box {
+	flex-flow: column wrap;
+}
+.pic_page_top_bar {
+	width: 100%;
+	height: 35px;
+	margin: 5px;
+	display: flex;
+	justify-content: flex-end;
+}
+button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+.pic_page_left_bar {
+	width: 10%;
+	height: 550px;
+	margin: 10px;
+	display: flex;
+}
+.pic_page_right_bar {
+	width: 10%;
+	height: 550px;
+	margin: 10px;
+	display: flex;
+}
+#src_pic_box {
+	width: 100%;
+	height: 100%;
+}
+#singal_pic_box {
+	width: 70%;
+	margin: 10px;
+}
+#src_pic {
+	max-height: 550px;
+	max-width: 100%;
+}

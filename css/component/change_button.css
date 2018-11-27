@@ -1,0 +1,28 @@
+.change_button {
+	text-align: center;
+	text-decoration: none;
+	padding: 1.5%;
+	border-radius: 12px;
+	margin: 4%;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+  	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+}
+.change_button:hover {
+	text-align: center;
+	text-decoration: none;
+	padding: 1.55%;
+	border-radius: 12px;
+	margin: 4%;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+}
