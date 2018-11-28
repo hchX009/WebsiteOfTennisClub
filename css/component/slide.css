@@ -88,6 +88,11 @@ span {
 	background-color: transparent;
 	cursor: pointer;
 }
+.card_button img {
+	position: relative;
+	top: 30%;
+	width: 100%;
+}
 .extra_component_no_in_center {
     display: flex;
 	flex-flow: row nowrap;
