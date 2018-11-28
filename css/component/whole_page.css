@@ -10,3 +10,12 @@ body {
 	height: 30vh;
 	background-color: #444444; 
 }
+#nav_block {
+	z-index: 99;
+	background-color: white;
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -o-sticky;
+	position: sticky;
+	top: 0;
+}

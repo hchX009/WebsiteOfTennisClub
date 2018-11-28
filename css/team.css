@@ -1,0 +1,16 @@
+#coach_block {
+	width: 85vw;
+	margin: 20px 7.5%;
+	padding-bottom: 2vh;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: #ebedf0;
+}
+#coach_block_background {
+	height: 60vh;
+	margin: 10px 7.5%;
+	padding-bottom: 2vh;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	background-color: #ebedf0;
+}
