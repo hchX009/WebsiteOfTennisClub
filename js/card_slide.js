@@ -30,6 +30,24 @@ $(document).ready(function($) {
 			});
 	});
 
+	$(".card_slip_block_h").hover(function() {
+		$("#change_card_body_" + findId(this)).animate({
+				'top': '30%'
+			},
+			500,
+			function() {
+				/* stuff to do after animation is complete */
+			});
+	}, function() {
+		$("#change_card_body_" + findId(this)).animate({
+				'top': '100%'
+			},
+			500,
+			function() {
+				/* stuff to do after animation is complete */
+			});
+	});
+
 	$("#right").click(function(event) {
 		left = $("#card_slip_borad_time").css('left');
 		left = left.match(reg)[0];

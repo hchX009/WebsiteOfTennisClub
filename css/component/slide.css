@@ -80,6 +80,12 @@ span {
 	width: 23%;
 	margin: 0 1%;
 }
+.card_slip_block_h {
+	background-color: white;
+	height: 40vh;
+	width: 23%;
+	margin: 1% 1%;
+}
 .card_button {
 	margin: 0;
 	padding: 0;
