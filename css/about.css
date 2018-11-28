@@ -1,45 +1,45 @@
+#goods_block {
+	height: 71vh;
+	background-color: white; 
+}
+#goods_block_background {
+	height: 85%;
+	margin: 10px 7.5%;
+	padding-bottom: 2vh;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	background-color: #ebedf0;
+}
 *{
-    margin: 0;
-    font-family: Î¢ÈíÑÅºÚ ;
-    padding: 0;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
 }
 #timeLine{
-    width: 1000px;
-    margin: 100px auto;
-    /*border:  solid 1px #434343;*/
-    /*background: rgba(500,500,500,0.9);*/
+    width: 100%;
     overflow: hidden;
 }
 #yearList{
     width: 100%;
     list-style: none;
     position: relative;
-    /*left: 457px;*/
-    margin-left: 457px;
+    top: 25px;
+    margin-left: 53.25%; 
 }
-#yearList:after,.container-li:after{
+#yearList:after, .container-li:after{
     content: "";
     display: table;
     clear: both;
 }
 #yearList li{
     float: left;
-    cursor: pointer;
     text-align: center;
     font-size: 21px;
-    padding: 10px 20px;
+    padding: 8px 8px;
 }
 .year-dot{
     width: 10px; height: 10px; border-radius: 5px;
     background-color: #002f21;
     margin: 10px auto;
     display: block;
-}
-.dotted-line{
-    border-bottom: dashed 2px  #7b7d7b;
-    position: relative;
-    top: -26px;
-    z-index: -1;
 }
 #cList{
     width: 100%;
@@ -50,26 +50,28 @@
     display: inline-block;
     position: absolute;
     left: 0;
-    top: 180px;
+    top: 25%;
     text-decoration: none;
     color: #fff;
     font-size: 30px;
     text-align: center;
     line-height: 120px;
     background: rgba(0,0,0,0.3);
+    z-index: 3;
 }
 #btnRight{
     width: 50px; height: 130px;
     display: inline-block;
     position: absolute;
     right: 0;
-    top: 180px;
+    top: 25%;
     text-decoration: none;
     color: #fff;
     font-size: 30px;
     text-align: center;
     line-height: 120px;
     background: rgba(0,0,0,0.3);
+    z-index: 3;
 }
 #btnLeft:hover,#btnRight:hover{
     background: rgba(0,0,0,0.5);
@@ -77,7 +79,7 @@
 #cUl{
     width: 850px;
     list-style: none;
-    height: 400px;
+    height: 350px;
     margin: 0 auto;
     position: relative;
     left: 0px;
@@ -95,10 +97,9 @@
 }
 .container-li{
     width: 100%;
-    padding: 20px 50px;
+    padding: 30px 80px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: solid 1px #434343;
 }
 .c-li-left{
     width: 40%;
@@ -114,5 +115,3 @@
 .year-active i{
     background-color: red;
 }
-
-
