@@ -74,6 +74,14 @@ span {
 	height: 100%;
 	width: 100%;
 }
+.card_borad {
+	overflow: visible;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 80%;
+}
 .card_slip_block {
 	background-color: white;
 	height: 80%;
