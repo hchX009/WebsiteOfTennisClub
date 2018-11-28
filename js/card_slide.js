@@ -1,7 +1,7 @@
 $(document).ready(function($) {
 
 	var left;
-	var div = $(document.body).width() * 0.1725;
+	var div = $(document.body).width() * 0.17;
 
 	var reg = /\d+/g;
 
@@ -53,10 +53,10 @@ $(document).ready(function($) {
 		left = left.match(reg)[0];
 		left = parseInt(left);
 		left += div;
-		if (left < 8 * div) {
+		if (left < 4 * div) {
 			$("#card_slip_borad_time").css('left', '-' + left + 'px');
 		} else {
-			$("#card_slip_borad_time").css('left', '-' + 8 * div + 'px');
+			$("#card_slip_borad_time").css('left', '-' + 4 * div + 'px');
 		}
 	});
 

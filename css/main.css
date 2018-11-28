@@ -110,10 +110,18 @@
 }
 #time_block {
 	height: 60vh;
-	width: 85vw;
+	width: 85%;
 	margin: 20px 7.5%;
 	padding-bottom: 2vh;
 	padding-left: 0;
 	padding-right: 0;
+	background-color: #ebedf0;
+}
+#show_block {
+	height: 80vh;
+	width: 85%;
+	background-color: white; 
+	padding-bottom: 4vh;
+	margin: 10px 7.5% 30px 7.5%;
 	background-color: #ebedf0;
 }
