@@ -158,14 +158,14 @@
 .back_change_button {
     font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
     font-size: 2em;
-    width: 100%;
+    width: 40%;
     height: 180px;
     padding: 0;
     margin: 10px;
 }
 .back_change_button:hover {
     font-size: 2em;
-    width: 100%;
+    width: 40%;
     height: 180px;
     padding: 0;
     margin: 10px;
