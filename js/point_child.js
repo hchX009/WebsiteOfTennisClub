@@ -11,7 +11,7 @@ $(document).ready(function($) {
 
 	text = text + newsText + "。";
 
-	$('img').attr('src', pic_src);
-	$('h1').text(title);
-	$('p').text(text);
+	$('#jsin_img').attr('src', pic_src);
+	$('#jsin_h1').text(title);
+	$('#jsin_p').text(text);
 });
