@@ -1,0 +1,15 @@
+#info_block {
+	background-color: white; 
+}
+#info_block_background {
+	margin: 10px 7.5%;
+	padding-bottom: 2vh;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	background-color: #ebedf0;
+}
+img {
+	width: 60%;
+	height: 300px;
+	margin-top: 20px;
+}
