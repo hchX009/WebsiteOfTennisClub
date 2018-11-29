@@ -19,3 +19,8 @@ body {
 	position: sticky;
 	top: 0;
 }
+#bottom_block p {
+    margin: 10px 0;
+    color: white;
+    font-size: 0.8em;
+}
