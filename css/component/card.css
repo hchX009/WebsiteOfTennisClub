@@ -37,7 +37,7 @@
 .card_full_pic{
     width: 100%;
     height: 100%;
-    background-color: white;
+    background-color:  #ebedf0;
     cursor: pointer;
     overflow: hidden;
     transition: all 0.4s;
