@@ -1,17 +1,19 @@
+*{
+    font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+}
+#content p {
+
+}
 #goods_block {
-	height: 71vh;
 	background-color: white; 
 }
 #goods_block_background {
-	height: 85%;
-	margin: 10px 7.5%;
+	width: 85%;
+	margin: 20px 7.5%;
 	padding-bottom: 2vh;
 	padding-left: 7.5%;
 	padding-right: 7.5%;
 	background-color: #ebedf0;
-}
-*{
-    font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
 }
 #timeLine{
     width: 100%;
