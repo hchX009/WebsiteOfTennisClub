@@ -2,7 +2,7 @@
     font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
 }
 #content p {
-
+    line-height: 40px;
 }
 #goods_block {
 	background-color: white; 
