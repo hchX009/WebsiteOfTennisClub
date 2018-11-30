@@ -45,7 +45,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0 50%;
-	background-image: url(../images/top_top_2.jpg);
+	background-image: url(../images/team_p.jpg);
 }
 #amateur_team {
 	background-repeat: no-repeat;
@@ -55,7 +55,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0% 50%;
-	background-image: url(../images/top_top_3.jpg);
+	background-image: url(../images/team_a.jpg);
 }
 #news_block {
 	background-color: white; 
