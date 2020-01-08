@@ -1,0 +1,30 @@
+.block {
+	width: 100%;
+}
+.block_title {
+	width: 100%;
+	position: relative;
+	left: 10px;
+}
+.block_title h1 {
+	width: 120px;
+	color: #444444;
+	padding-top: 0;
+	padding-bottom: 6px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 1.5em;
+	font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+	letter-spacing: 3px; 
+	border-bottom: 2px solid #444444;
+	transition: all 1.5s ease;
+}
+.block_title h1:hover {
+	width: 180px;
+}
+.extra_add_padding {
+    padding: 0 10%;
+}
+.extra_add_padding_bottom {
+    padding-bottom: 1vh;
+}

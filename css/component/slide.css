@@ -1,0 +1,114 @@
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+span {
+	display: inline-block;
+	z-index: 1;
+	width: 0.6em;
+	height: 0.6em;
+	border-radius: 0.8em;
+	background-color: white;
+	margin-left: 0.5em;
+	cursor: pointer;
+}
+.slip_outline {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.slip_borad {
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.slip_block {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+	height: 100%;
+	width: 100%;
+}
+.slip_point {
+	position: relative;
+	bottom: 2em;
+	z-index: 2;
+	background: transparent;
+	height: 2em;
+}
+.on{
+	display: inline-block;
+	z-index: 1;
+	width: 0.45em;
+	height: 0.45em;
+	border-radius: 0.8em;
+	border:0.1em solid white;
+	background-color: #6ebb1f;
+	margin-left: 0.5em;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+  	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.card_slip_outline {
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 90%;
+}
+.card_slip_borad {
+	overflow: visible;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.card_borad {
+	overflow: visible;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 80%;
+}
+.card_slip_block {
+	background-color: white;
+	height: 80%;
+	width: 23%;
+	margin: 0 1%;
+}
+.card_slip_block_h {
+	background-color: white;
+	height: 40vh;
+	width: 23%;
+	margin: 1% 1%;
+}
+.card_button {
+	margin: 0;
+	padding: 0;
+	height: 90%;
+	width: 10%;
+	background-color: transparent;
+	cursor: pointer;
+}
+.card_button img {
+	position: relative;
+	top: 30%;
+	width: 100%;
+}
+.extra_component_no_in_center {
+    display: flex;
+	flex-flow: row nowrap;
+  	align-items: center;
+}

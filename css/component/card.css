@@ -1,0 +1,195 @@
+.card{
+    width: 23%;
+    height: 39.2vh;
+    max-height: 300px;
+    min-width: 150px;
+    margin-top: 2vh;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all 0.4s;
+}
+.card:hover{
+    margin-top: 1vh;
+    box-shadow: 5px 8px 5px #778899;
+}
+.card_width{
+    width: 48%;
+    height: 39.2vh;
+    max-height: 275px;
+    min-width: 320px;
+    margin-top: 2vh;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all 0.4s;
+}
+.card_width:hover{
+    margin-top: 1vh;
+    box-shadow: 5px 8px 5px #778899;
+}
+.card_full_pic{
+    width: 100%;
+    height: 100%;
+    background-color:  #ebedf0;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+.card a{
+    color: #444444;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card_width a{
+    color: #444444;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.card_full_pic a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card_header{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    overflow: hidden;   
+}
+.card_header_width{
+    width: 60%;
+    height: 100%;
+    background-color: white; 
+    overflow: hidden;  
+}
+.card_full_pic_header {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+.card_img{
+    height: 100%;
+    min-width: 100%;
+    transition: all 1s ease;
+    overflow: hidden;
+}
+.card_img:hover{
+    transform: scale(1.15);
+}
+.card_body{
+    width: 100%;
+    max-height: 50%;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+.card_body_width{
+    max-width: 40%;
+    max-height: 90%;
+    padding: 5% 10px;
+    overflow: hidden;
+}
+.card_full_pic_body{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 60%;
+    max-height: 100%;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+.change_card_body{
+    position: absolute;
+    top: 100%;
+    width: 90%;
+    height: 70%;
+    padding: 5px 5%;
+    background-color: rgba(255, 255, 255, 0.85);
+    overflow: hidden;
+    color: #444444;
+}
+.card_title h1{
+    margin-top: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 1.2em;
+    font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    text-align: center
+}
+.card_full_pic_title h1{
+    margin-top: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 2em;
+    font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+}
+.card_content p{
+    margin: 0;
+    width: 100%;
+    font-size: 0.8em;
+    font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+}
+.card_bottom p{
+    color: gray;
+    font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    width: 100%;
+    font-size: 0.5em;
+}
+/**/
+.full_box {
+    width: 100%;
+}
+.back_change_button {
+    font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    font-size: 2em;
+    width: 40%;
+    height: 250px;
+    padding: 0;
+    margin: 10px;
+}
+.back_change_button:hover {
+    font-size: 2em;
+    width: 40%;
+    height: 250px;
+    padding: 0;
+    margin: 10px;
+}
+.font_change_button {
+    font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    color: white;
+    font-size: 2em;
+    width: 100%;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0);
+}
+.font_change_button:hover {
+    color: white;
+    font-size: 2em;
+    width: 100%;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,60%);
+}
+/**/
+.extra_component_position {
+    position: relative;
+}

@@ -1,0 +1,119 @@
+*{
+    font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+}
+#content p {
+    line-height: 40px;
+}
+#goods_block {
+	background-color: white; 
+}
+#goods_block_background {
+	width: 85%;
+	margin: 20px 7.5%;
+	padding-bottom: 2vh;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	background-color: #ebedf0;
+}
+#timeLine{
+    width: 100%;
+    overflow: hidden;
+}
+#yearList{
+    width: 100%;
+    list-style: none;
+    position: relative;
+    top: 25px;
+    margin-left: 53.25%; 
+}
+#yearList:after, .container-li:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#yearList li{
+    float: left;
+    text-align: center;
+    font-size: 21px;
+    padding: 8px 8px;
+}
+.year-dot{
+    width: 10px; height: 10px; border-radius: 5px;
+    background-color: #002f21;
+    margin: 10px auto;
+    display: block;
+}
+#cList{
+    width: 100%;
+    position: relative;
+}
+#btnLeft{
+    width: 50px; height: 130px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 120px;
+    background: rgba(0,0,0,0.3);
+    z-index: 3;
+}
+#btnRight{
+    width: 50px; height: 130px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 120px;
+    background: rgba(0,0,0,0.3);
+    z-index: 3;
+}
+#btnLeft:hover,#btnRight:hover{
+    background: rgba(0,0,0,0.5);
+}
+#cUl{
+    width: 850px;
+    list-style: none;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+}
+#cUl li{
+    width: 850px;
+  position: absolute;  left: 0;
+}
+.li-tit{
+    display:inline-block;
+    color: #fff;
+    background-color: #002f21;
+    padding: 10px 20px;
+    margin: 30px auto 10px;
+}
+.container-li{
+    width: 100%;
+    padding: 30px 80px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.c-li-left{
+    width: 40%;
+    float: left;
+}
+.c-li-right{
+    width: 60%;
+    float: right;
+}
+.year-active{
+    color: red;
+}
+.year-active i{
+    background-color: red;
+}

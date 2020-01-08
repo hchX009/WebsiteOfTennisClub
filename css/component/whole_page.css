@@ -1,0 +1,26 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	/*background-color: white;*/
+}
+#bottom_block {
+	height: 20vh;
+	background-color: #444444; 
+}
+#nav_block {
+	z-index: 99;
+	background-color: white;
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -o-sticky;
+	position: sticky;
+	top: 0;
+}
+#bottom_block p {
+    margin: 10px 0;
+    color: white;
+    font-size: 0.8em;
+}

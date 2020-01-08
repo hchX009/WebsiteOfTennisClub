@@ -1,0 +1,15 @@
+#goods_block {
+	background-color: white;
+}
+#goods_block_background {
+	margin: 20px 7.5%;
+	padding-bottom: 2vh;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	background-color: #ebedf0;
+	min-height: 85vh; 
+}
+.news_block_small {
+	margin-bottom: 2vh;
+}
+
