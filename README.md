@@ -1,4 +1,4 @@
-# website_of_tennis_club
+# Website_of_tennis_club
 
 该项目为人机交互课程的学期作业，通过html、js和css语言编写一个简单的网球俱乐部展示网页。
 
